@@ -129,7 +129,7 @@ const ScatterPlotComponent = () => {
 
 
     return (
-        <div className="App">
+        <div >
             <svg ref={svgRef}></svg>
             <div className="tooltip" ref={tooltipRef} />
             <br></br>
